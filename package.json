@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild":"next-sitemap"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "highlight.js": "^11.11.1",
     "next": "13.5.11",
     "next-mdx-remote": "^5.0.0",
